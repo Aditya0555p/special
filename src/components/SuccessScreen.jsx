@@ -182,14 +182,14 @@ export default function SuccessScreen({ config, onRestart }) {
         >
           <div className="flex items-center justify-center gap-2 text-amber-300 font-semibold mb-2">
             <Award className="w-4 h-4" />
-            <span>Digital Keepsake & Promise</span>
+            <span>{config.senderName} ❤️ {config.crushName}</span>
           </div>
-          <p className="italic text-pink-100/80">
-            "To love, laugh, listen, and cherish every sunrise and sunset together."
+          <p className="italic text-pink-100/90 font-serif text-sm sm:text-base my-2">
+            "Distance is just a test to see how far love can travel... and our love bridges Delhi & Punjab effortlessly."
           </p>
-          <div className="mt-3 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-pink-300/70">
-            <span>Special Date: Today & Always</span>
-            <span>With All My Love ❤️</span>
+          <div className="mt-3 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-pink-300/80">
+            <span>Delhi ✈️ Punjab</span>
+            <span>Day 5 to Forever ❤️</span>
           </div>
         </motion.div>
 

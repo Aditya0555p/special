@@ -2,69 +2,70 @@
  * ===================================================================
  * 💖 ROMANTIC PROPOSAL WEBSITE CONFIGURATION
  * ===================================================================
- * Customize this file with your own names, messages, photos, and music.
- * Everything will update automatically across the entire website!
+ * Personalized for Anchal & Aditya 
+ * Distance: Delhi ↔ Punjab
+ * Connection: 5 Days of non-stop Instagram, Snapchat & Voice Calls ❤️
  */
 
 export const proposalConfig = {
   // -----------------------------------------------------------------
   // 1. Names & Identity
   // -----------------------------------------------------------------
-  crushName: "CRUSH_NAME", // e.g. "Sophia", "Aditi", "Emma"
-  senderName: "YOUR_NAME", // e.g. "Alex", "Aditya", "Liam"
+  crushName: "Anchal",
+  senderName: "Aditya",
 
   // -----------------------------------------------------------------
   // 2. Landing Page
   // -----------------------------------------------------------------
   landing: {
     // Top headline
-    title: "Hey, Someone Special... 💗",
+    title: "Hey, Anchal... 💗",
     // Subtitle text
-    subtitle: "I have something to tell you, something I've wanted to say for a long time...",
+    subtitle:
+      "Bas 5 din pehle shuru hui humari baat, par dil ko lagta hai jaise barson se jaante hain... I have something very special to tell you 💫",
     // Glowing action button
     buttonText: "Open My Heart 💌",
     // Romantic badge tag
-    badge: "A little secret for you ✨",
+    badge: "Delhi ✈️ Punjab • A special secret for Anchal ✨",
   },
 
   // -----------------------------------------------------------------
   // 3. Romantic Love Letter (Typed out line by line)
   // -----------------------------------------------------------------
   loveLetter: {
-    title: "From My Heart to Yours",
-    date: "A moment I cherish ✨",
+    title: "From Delhi to Punjab With All My Heart",
+    date: "5 Magical Days & Counting ✨",
     paragraphs: [
-      "I don't know exactly when it happened, but somewhere between our conversations and your smile, you became someone really special to me.",
-      "Every time I think about you, I find myself smiling for no reason. Maybe it's silly, maybe it's unexpected, but I don't want to keep these feelings to myself anymore.",
-      "So today, I just want to tell you something from my heart... ❤️",
+      "I don't know exactly when it happened, but somewhere between our Instagram DMs, Snapchat streaks, and your sweet smile, you became someone really special to me in just 5 days.",
+      "Main Delhi mein baith kar Punjab ke baare mein sochta hoon aur har baar bina wajah muskura deta hoon. Hamari late-night chatting aur endless baaton ne 300+ kilometers ki doori ko bilkul mita diya hai.",
+      "Log kehte hain 5 din bahut kam hote hain kisi ko samajhne ke liye, lekin dil ko pata hota hai jab use apna sabse pyara insaan mil jata hai. So today, I don't want to keep these feelings to myself anymore... ❤️",
     ],
-    buttonText: "There's One More Thing... 💖",
+    buttonText: "There's One More Thing, Anchal... 💖",
   },
 
   // -----------------------------------------------------------------
-  // 4. Romantic Memories & Photo Gallery (Optional)
-  // Set `showGallery: true` to include memories before the big question
+  // 4. Romantic Memories & Photo Gallery
   // -----------------------------------------------------------------
   gallery: {
     enabled: true,
-    title: "Moments With You",
-    subtitle: "Little fragments of joy that stay in my mind 💫",
-    buttonText: "Continue to The Question 💍",
+    title: "Our 5 Days Story",
+    subtitle: "From Insta DMs & Snap streaks to late night voice calls 💫",
+    buttonText: "Continue to The Big Question 💍",
     photos: [
       {
-        url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80",
-        caption: "Where every smile feels like sunshine ✨",
-        date: "Our magical moments",
+        url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80",
+        caption: "Insta DMs aur Snap streaks jahan se hamari pyari si kahani shuru hui 📱✨",
+        date: "Day 1: Where it all began",
       },
       {
         url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80",
-        caption: "Those late night conversations I never wanted to end 🌙",
-        date: "Whispers under the stars",
+        caption: "Late night voice calls jab ghanton guzar gaye aur waqt ka pata hi nahi chala 🌙📞",
+        date: "Midnight whispers & laughs",
       },
       {
-        url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80",
-        caption: "Just thinking about you makes my day brighter 🌸",
-        date: "Every single day",
+        url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80",
+        caption: "Delhi ↔ Punjab: Distance means so little when you mean so much to me ✈️❤️",
+        date: "Miles apart, one at heart",
       },
     ],
   },
@@ -73,9 +74,10 @@ export const proposalConfig = {
   // 5. The Proposal Screen
   // -----------------------------------------------------------------
   proposal: {
-    tagline: "The moment that matters most...",
-    question: "Will You Be Mine? ❤️",
-    subtitle: "In a world full of billions of stars, my heart only beats for you.",
+    tagline: "For the girl in Punjab who stole this Delhi boy's heart...",
+    question: "Anchal, Will You Be Mine? ❤️",
+    subtitle:
+      "Distance chahe Delhi aur Punjab ke beech kitna bhi ho, mera dil har pal sirf aapke liye dhadakta hai.",
     yesButtonText: "YES! 💖",
     thinkButtonText: "Let Me Think 🥺",
   },
@@ -84,21 +86,21 @@ export const proposalConfig = {
   // 6. Responses
   // -----------------------------------------------------------------
   responses: {
-    // When she says YES!
+    // When Anchal says YES!
     yes: {
-      title: "YOU JUST MADE MY WORLD BEAUTIFUL! 💕",
+      title: "YOU JUST MADE MY WORLD BEAUTIFUL, ANCHAL! 💕",
       message:
-        "Maybe this is the beginning of something really special. I can't wait to create beautiful memories with you. ❤️",
-      badge: "Forever Starts Here 💍",
+        "Delhi aur Punjab ke beech ki doori ab aur bhi haseen ho gayi hai. 5 din mein aapne meri poori duniya badal di... I can't wait to create a lifetime of beautiful memories with you! ❤️",
+      badge: "Aditya ❤️ Anchal • Forever Starts Here 💍",
       actionButtonText: "Relive Our Moment ↺",
       downloadCardText: "Save Our Keepsake 💌",
     },
-    // When she clicks "Let Me Think"
+    // When Anchal clicks "Let Me Think"
     think: {
-      title: "Take All The Time You Need 🌸",
+      title: "Take All The Time You Need, Anchal 🌸",
       message:
-        "Take your time, there's no pressure. Your happiness matters to me. 💗",
-      note: "No rush, no expectations. Whenever you're ready, I'm right here.",
+        "Take your time, there's no pressure at all. Your comfort and happiness matter to me the most, Anchal. 💗",
+      note: "Dooriyan sabr sikhata hain, aur sachha pyaar hamesha intezaar karta hai. Whenever you feel ready, Aditya is right here for you.",
       backButtonText: "I'm Ready Now 💕",
     },
   },
@@ -107,10 +109,9 @@ export const proposalConfig = {
   // 7. Background Music Settings
   // -----------------------------------------------------------------
   music: {
-    // Place your romantic mp3 in public/music.mp3 or change this URL
     audioSrc: "/music.mp3",
-    title: "Romantic Melody (Golden Hour)",
-    artist: "Straight from the Heart",
+    title: "Romantic Melody (For Anchal)",
+    artist: "From Aditya's Heart",
     defaultVolume: 0.35, // 0.0 to 1.0 (Low & gentle by default)
   },
 };
